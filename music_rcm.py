@@ -4,7 +4,7 @@ import webbrowser as wb
 import re
 from googleapiclient.discovery import build
 import time
-YOUTUBE_API_KEY = "AIzaSyCwlFA3CQCHlydisqqp7AhiLi-Q8-nUQFg"
+YOUTUBE_API_KEY = "YOUR_API_KEY"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 PUBLIC= False
