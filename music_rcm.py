@@ -52,6 +52,7 @@ def get_song(text):
         # song_list = [search_youtube(song) for song in song_names]
         print(song_list)
         song_list = [x for x in song_list if len(x) > 0]
+        song_list =list(set(song_list))
         wb.open(song_list[0])
         song_list.pop(0)
         return "success"
