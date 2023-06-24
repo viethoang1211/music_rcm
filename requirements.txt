@@ -1,0 +1,2 @@
+gradio
+google-api-python-client
